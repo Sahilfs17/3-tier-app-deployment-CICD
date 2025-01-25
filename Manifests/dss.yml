@@ -13,8 +13,8 @@ data:
   SECRET=ZGV2b3Bzc2hhY2sK
 
 ---
-apiVersion: apps/v1
 kind: Deployment
+apiVersion: apps/v1
 metadata:
   name: yelp-camp-deployment
 spec:
